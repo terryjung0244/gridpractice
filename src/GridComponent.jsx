@@ -1,5 +1,6 @@
 import React from 'react'
 import { object } from './object'
+import Grid from '@mui/material/Grid';
 
 const GridComponent = () => {
   return (
