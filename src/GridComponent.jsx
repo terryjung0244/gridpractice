@@ -6,7 +6,15 @@ import { ClassNames } from '@emotion/react';
 
 const useStyles = makeStyles((theme) => ({
   mainContainer: {
-    
+    border: '1px solid red',
+    display: 'flex',
+    justifyContent: 'space-evenly',
+    alignItems: 'center',
+    height: '50vh'
+
+  },
+  mapContainer: {
+    border: '1px solid green'
   }
 }))
 
