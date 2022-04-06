@@ -29,7 +29,7 @@ const GridComponent = () => {
         <Grid container className={classes.mainContainer}>
         {object.map((object, index) => {
           return (
-            <Grid className={classes.mapContainer} item xs={2} lg={4} key={object.fruitName}>
+            <Grid className={classes.mapContainer} item xs={12} md={6} lg={3} key={object.fruitName}>
               
               <Grid>
                 {object.fruitName}
